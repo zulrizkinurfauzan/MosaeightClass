@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosaeight Class</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-grid" id="bg-grid"></div>
+
+    <header>
+        <div class="hero-bg zoom-effect" id="hero-bg"></div>
+        
+        <div class="class-profile" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="admin-photo"></div> 
+            <h1 class="class-name">Mosaeight Class</h1>
+            <p>One Class | One Memory | One Bond</p>
+        </div>
+        
+        <a href="#teacher" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <section class="teacher-section" id="teacher">
+        <div class="container">
+            <h2 data-aos="fade-up">Wali Kelas</h2>
+            <div class="teacher-wrapper" data-aos="zoom-in">
+                <div class="card teacher-card">
+                    <div class="img-box" onclick="openLightbox('assets/walikelas.jpeg', 'Belum ada pesan.')" style="cursor: pointer;">
+                        <img src="assets/walikelas.jpeg" alt="Wali Kelas" onerror="this.src='https://via.placeholder.com/150?text=Wali+Kelas'">
+                    </div>
+                    <h3>MARHENI S.E</h3>
+                    <p>Wali Kelas Terhebat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="students-section" id="students">
+        <div class="container">
+            <h2 data-aos="fade-up">Anggota Kelas</h2>
+            <div class="grid-students" id="student-grid"></div>
+        </div>
+    </section>
+
+    <section class="moments-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Momen Bersama</h2>
+            <div class="grid-moments" id="moment-grid"></div>
+        </div>
+    </section>
+
+    <section class="graduation-section">
+        <div class="container">
+            <h2 data-aos="fade-up">FOTO-FOTO KELULUSAN</h2>
+            <div class="grid-graduation" id="graduation-grid"></div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Zoom Image">
+            <p id="lightbox-msg" class="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <audio id="backsound" loop>
+        <source src="assets/lagu.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="music-btn" onclick="toggleMusic()">
+        <i class="fas fa-play" id="music-icon"></i>
+    </div>
+
+    <footer>
+        <div class="footer-cta" data-aos="fade-up">
+            <p>Ingin melihat keseruan kami yang lain?</p>
+            <a href="https://instagram.com/mosaeight.class" target="_blank" class="btn-class-ig">
+                <i class="fab fa-instagram"></i> Kunjungi Instagram Kelas
+            </a>
+        </div>
+        <br><br>
+        <p>Created by Zul Rizki Nur Fauzan</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
