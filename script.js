@@ -54,7 +54,7 @@ const dataSiswa = [
     { nama: "Sani",     foto: "assets/sani.jpg",     ig: "ambaleonbonaparte",pesan: "Aku akan menemukan jalan, atau membuat jalan sendiri." },
     { nama: "Pedro",    foto: "assets/pedro.jpg",    ig: "pdro.tg",          pesan: "Jangan biarkan kemarin menyita terlalu banyak waktu hari ini." },
     { nama: "Fajar",    foto: "assets/fajar.jpg",    ig: "fajar23_.03",      pesan: "Jangan menyerah saat berproses, karna kita tidak tau finish kita kapan." },
-    { nama: "Ririn",    foto: "assets/ririn.jpg",    ig: "yeskeell",         pesan: "Life is colorful, but black and white is more realistic." },
+    { nama: "Ririn",    foto: "assets/ririn.jpg",    ig: "yeskeell",         pesan: "Life is in colorful, but black and white is more realistic." },
     { nama: "Robernat", foto: "assets/robernat.jpg", ig: "inoclute",         pesan: "Langkah kecil hari ini di sekolah , adalah awal mimpi besar di masa depan." },
     { nama: "Shofia",   foto: "assets/shofia.jpg",   ig: "im_sofhia_8",      pesan: "Pikiran positif menghasilkan hidup yang positif." },
     { nama: "Suci",     foto: "assets/suci.jpg",     ig: "scirahmadhni_",    pesan: "Kenangan ini adalah fondasi masa depan kita." },
